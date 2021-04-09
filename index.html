@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Document</title>
+  <link rel='stylesheet' href='style.css'>
+  <link rel='stylesheet' href='styleTrafficLights.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='lesson1- DataTypes&Operators.js'></script>
+  <script src='lesson2-Cycles.js'></script>
+  <script src='lesson3-Function.js'></script>
+  <script src='lesson4-Objects.js'></script>
+  <script src='lesson5-Arrays.js'></script>
+  <script src='lesson6-Class.js'></script>
+  <script src='lesson7-DOM.js'></script>
+  <script src='lesson8-Events.js'></script>
+  <script src='lesson9-FamiliarityWithJQuery.js'></script>
+  <script src='HomeTask.js'></script>
+  <script src='groupJob.js'></script>
+</head>
+
+<body>
+  <section class="Lesson1">
+    <h1>Lesson 1 - Data types & operators</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>My Thinks on 17.03</h2>
+        <button onclick='age()' class='btn'>Enter your age</button>
+        <button onclick='answer()' class='btn'>Enter number 0 - 9 :</button>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Group job 18.03</h2>
+        <button onclick='checkAge()' class='btn'>Enter age please:</button>
+        <button onclick='findSymbol()' class='btn'>Symbol</button>
+        <button onclick='sameNums1()' class='btn'>Number</button>
+        <button onclick='sameNums2()' class='btn'>Symbol2</button>
+        <button onclick='leapYear()' class='btn'>Leap Year</button>
+        <button onclick='' class='btn'></button>
+      </div>
+      <div class='column03 FlexDir'>
+        <h2>Continuing my thoughts 19.03</h2>
+        <button onclick='discount()' class='btn'>Discont</button>
+        <button onclick='palindrome()' class='btn'>Definition</button>
+        <button onclick='сonverter()' class='btn'>Convert</button>
+        <button onclick='circleToSquare()' class='btn'>Сircle To Square</button>
+        <button onclick='' class='btn'></button>
+      </div>
+  </section>
+  <hr>
+  <section class="lesson2">
+    <h1>Lesson 2 - Cycles</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>Group job 18.03</h2>
+        <button onclick='queschions()' class='btn'>Queschions</button>
+        <button onclick='caunt()' class='btn'>Diapasone</button>
+        <button onclick='NOD()' class='btn'>Н_О_Д</button>
+        <button onclick='allDividers()' class='btn'>Dividers</button>
+        <button onclick='numberLength()' class='btn'>Number Length</button>
+        <button onclick='typeOfNumbers()' class='btn'>Type Of Number</button>
+        <button onclick='calculator()' class='btn'>CALCULATOR</button>
+        <button onclick='sliceString()' class='btn'>SLICE</button>
+        <button onclick='dayOfWeek()' class='btn'>DAYS</button>
+        <button onclick='powerNumber()' class='btn'>Power Number</button>
+        <button onclick='game()' class='btn'>Game</button>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Continuing my thoughts</h2>
+        <button onclick='' class='btn'></button>
+        <div id="text"></div>
+        <div id="table"></div>
+        <button onclick='' class='btn'></button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson3">
+    <h1>Lesson 3 - Functions</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>My Thinks on 23.03</h2>
+        <button onclick='showResult()' class='btn'>Enter Two Numbers</button>
+        <button onclick='factorial()' class='btn'>FACTORIAL</button>
+        <button onclick='threeNumber()' class='btn'>Three Number</button>
+        <button onclick='' class='btn'></button>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Group job on 23.03</h2>
+        <button onclick='lessNumber()' class='btn'>LESS NUMBER</button>
+        <button onclick='powerNum()' class='btn'>Power Num</button>
+        <button onclick='isPrime()' class='btn'>IS PRIME</button>
+        <button onclick='getRest()' class='btn'>Rest</button>
+        <button onclick='getSumma()' class='btn'>GET SUMMA</button>
+        <button onclick='' class='btn'></button>
+      </div>
+      <div class='column03 FlexDir'>
+        <h2>HOME WORK</h2>
+        <button onclick='S_perimeter ()' class='btn'>S + Perimeter</button>
+        <button onclick='perfectNumber()' class='btn'>Perfect Number</button>
+        <button onclick='getPerfectNumber()' class='btn'>Get Perfect Number</button>
+        <button onclick='clock()' class='btn'>Clock</button>
+        <button onclick='manySecond()' class='btn'>Many Seconds</button>
+        <button onclick='secondsToHours()' class='btn'>Seconds To Howers</button>
+        <button onclick='twoDates()' class='btn'> Difference of Two Dates</button>
+        <button onclick='' class='btn'></button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson4">
+    <h1>Lesson 4 - Objects</h1>
+    <div class='columns'>
+
+      <div class='column01 FlexDir'>
+        <h2>Group job on 25.03</h2>
+        <button onclick='createRectangle()' class='btn'>Create Rectangle</button>
+        <button onclick='describeRect()' class='btn'>Describe Rectangle</button>
+        <button onclick='alert(`Rectangle width is : ${getRectWidth()}`)' class='btn'>Rectangle Width</button>
+        <button onclick='alert(`Rectangle width is : ${getRectHeight()}`)' class='btn'>Rectangle Height</button>
+        <button onclick='alert(`Rectangle Area is : ${getRectArea()}`)' class='btn'>Rectangle Area</button>
+        <button onclick='alert(`Rectangle Perimeter is : ${getRectPerimeter()}`)' class='btn'>Rectangle
+          Perimeter</button>
+        <button onclick='chageWidth()' class='btn'>Change Rectangle Width</button>
+        <button onclick='chageHeight()' class='btn'>Change Rectangle Height</button>
+        <button onclick='changeSize()' class='btn'>Change Rectangle Size</button>
+        <button onclick='moveRectX()' class='btn'>Move Rectangle by X-axis</button>
+        <button onclick='moveRectY()' class='btn'>Move Rectangle by Y-axis</button>
+        <button onclick='isInsideRect()' class='btn'>Is point inside rectangle</button>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>HOME WORK</h2>
+        <button onclick='console.log(car)' class='btn'>Car Information in console</button>
+        <button onclick='carInformation(car)' class='btn'>Car Information on screen</button>
+        <button onclick='timing()' class='btn'>Timing</button>
+        <button onclick='createFractions()' class='btn'>Create Fractions</button>
+        <button onclick='sumFractions()' class='btn'>Summa Fractions</button>
+        <button onclick='' class='btn'></button>
+        <button onclick='' class='btn'></button>
+        <button onclick='' class='btn'></button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson5">
+    <h1>Lesson 5 - Arrays</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>Group job on 30.03</h2>
+        <button onclick='generateRandomArray()' class='btn'>Generate Random Array</button>
+        <button onclick='getEvenNumbers()' class='btn'>Get Even Numbers</button>
+        <button onclick='getSumNumbers()' class='btn'>Get Sum Numbers in Array</button>
+        <button onclick='getMaxNumber()' class='btn'>Get Max Number</button>
+        <button onclick='addNumber()' class='btn'>Add Number in Array</button>
+        <button onclick='deleteNumber()' class='btn'>Delete Number in Array</button>
+        <button onclick='generateRandomSecondArray()' class='btn'>Generate Random Second Array</button>
+        <button onclick='getConcatArray()' class='btn'>Get Concat Array</button>
+        <button onclick='getRepeatingNumber()' class='btn'>Get Repeating Number</button>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Continuing my thoughts</h2>
+        <button onclick='' class='btn'></button>
+        <button onclick='' class='btn'></button>
+        <button onclick='' class='btn'></button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson6">
+    <h1>lesson6 - Class</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>Group job on 30.03</h2>
+        <button onclick='prinText()' class='btn'>Print Text</button>
+        <button onclick='getNews()' class='btn'>Create News</button>
+        <button onclick='printNewsFeed()' class='btn'>Print News Feed</button>
+        <div id="News"></div>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Continuing my thoughts</h2>
+        <button onclick='' class='btn'></button>
+        <button onclick='' class='btn'></button>
+        <button onclick='' class='btn'></button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson7">
+    <h1>lesson7 - DOM</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>Group job on 03.04</h2>
+        <button onclick='getSong()' class='btn'>Get Songs</button>
+        <button onclick='getModal()' class='btn'>Open</button>
+        <button onclick='switchLight()' class='btn'>Switch Light</button>
+        <button onclick='toggleText()' class='btn'>Show Text</button>
+
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Continuing my thoughts</h2>
+        <button onclick='' class='btn'></button>
+        <div id="modal" onclick="closeModal() ">
+          <div class="modal_content">
+            <span class="close" onclick="closeModal()">X</span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, quaerat laboriosam? Sequi tempora sed
+            quae aperiam, quasi tenetur molestias reiciendis quia cumque et, recusandae necessitatibus! z
+          </div>
+        </div>
+        <div id="songs"></div>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nam repudiandae, vero saepe numquam nisi
+          delectus quis eaque asperiores, harum alias ducimus perferendis deleniti voluptas veniam impedit nihil
+          perspiciatis!
+          Laborum beatae optio quia rem nesciunt.
+        </div>
+        <button onclick='' class='btn'></button>
+        <div class="trafficLight">
+          <div class="red light active"></div>
+          <div class="yellow light"></div>
+          <div class="green light"></div>
+        </div>
+        <div class="tabs">
+          <div class="nav">
+            <button class="btn" onclick="openTab(`first`)">Open</button>
+            <button class="btn" onclick="openTab(`second`)">Open</button>
+            <button class="btn" onclick="openTab(`third`)">Open</button>
+          </div>
+          <div class="content">
+            <button class="content_items " id="first">Lorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet
+              consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet consectetur </button>
+            <button class="content_items " id="second">Lorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit
+              amet
+              consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum,
+              dolor sit
+              amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum,
+              dolor
+              sit amet consecteturLorem ipsum, dolor sit amet consectetur </button>
+            <button class="content_items " id="third">Lorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet
+              consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum,
+              dolor sit
+              amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum,
+              dolor
+              sit amet consecteturLorem ipsum, dolor sit amet consecteturLorem ipsum, dolor sit amet consectetur
+            </button>
+          </div>
+        </div>
+      </div>
+  </section>
+  <hr>
+  <section class="lesson8">
+    <h1>lesson8 - Events</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <h2>Group job on 06.04</h2>
+        <button onclick='' class='btn'></button>
+        <fieldset class="border">
+          <div id="writeBoard">Initial Text</div>
+          <textarea name="" id="task1-textarea" cols="30" rows="10"></textarea>
+        </fieldset>
+        <button onclick='' class='btn'></button>
+      </div>
+      <div class='column02 FlexDir'>
+        <h2>Group job on 06.04</h2>
+        <button onclick='' class='btn'></button>
+        <table id="task2Table">
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jon</td>
+            <td>Doe</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Waren</td>
+            <td>Lumen</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>Sara</td>
+            <td>Watcins</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Ray</td>
+            <td>Fox</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>Donald</td>
+            <td>Asah</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <td>Emet</td>
+            <td>White</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>Jake</td>
+            <td>Black</td>
+            <td>59</td>
+          </tr>
+          <tr>
+            <td>Iron</td>
+            <td>Likee</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Sam</td>
+            <td>Poiti</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>Elen</td>
+            <td>Tramp</td>
+            <td>18</td>
+          </tr>
+        </table>
+        <button onclick='' class='btn'></button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson8 HOME WORK">
+    <h1>Home Work - Events</h1>
+    <div class='columns'>
+      <div class='column01 FlexDir'>
+        <button class='like'>
+          <?xml version="1.0" encoding="utf-8"?>
+          <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+            height="50" viewBox="0 0 27 32">
+            <g id="icomoon-ignore">
+            </g>
+            <path
+              d="M27.275 15.638c0-1.288-1.020-2.282-2.374-2.282h-8.536c0.545-1.265 1.524-3.919 1.524-6.659 0-3.128-1.569-3.784-2.886-3.784-0.816 0-1.996 0.619-1.996 1.737 0 0.472-0.075 4.671-2.639 6.822-2.732 2.292-3.509 2.891-5.005 2.891-1.746 0-4.847 0.038-4.847 0.038l-0.517 0.007v12.206h5.712c0.371 0 1.483 0.496 2.466 0.932 1.622 0.722 3.459 1.541 4.696 1.541l8.25-0.003c1.343 0 2.436-1.056 2.436-2.354 0-0.529-0.189-1.012-0.494-1.405 0.984-0.282 1.711-1.18 1.711-2.254 0-0.539-0.19-1.031-0.496-1.429 0.968-0.309 1.677-1.207 1.677-2.277 0-0.538-0.184-1.031-0.485-1.431 1.031-0.258 1.801-1.185 1.801-2.295zM24.901 16.962h-1.822v1.049h0.477c0.746 0 1.353 0.607 1.353 1.353s-0.608 1.353-1.353 1.353h-1.526v1.049h0.394c0.719 0 1.304 0.585 1.304 1.305s-0.585 1.305-1.304 1.305h-1.443v1.049h0.143c0.764 0 1.387 0.586 1.387 1.305 0 0.72-0.623 1.305-1.387 1.305h-1.34v0.003h-6.91c-1.014 0-2.819-0.804-4.27-1.45-1.425-0.634-2.326-1.023-2.892-1.023h-4.663v-10.121c0.955-0.011 3.013-0.032 4.315-0.032 1.94 0 2.959-0.854 5.679-3.136 2.868-2.406 3.014-6.774 3.014-7.626 0-0.428 0.657-0.688 0.947-0.688 0.549 0 1.837 0 1.837 2.735 0 3.456-1.745 6.91-1.762 6.945l-0.39 0.763h6.426c0.018 0.013 0.030 0 0.030 0h3.757c0.767 0 1.325 0.532 1.325 1.233-0 0.73-0.594 1.324-1.325 1.324z"
+              fill=" #00a2ff"></path>
+          </svg>
+          <span class="counter"> 0 </span>
+        </button>
+      </div>
+    </div>
+    <div class='column02 FlexDir'>
+      <button onclick='' class='btn'></button>
+      <button onclick='' class='btn'></button>
+    </div>
+    </div>
+  </section>
+  <hr>
+  <section class="lesson9">
+    <h1>lesson 9 - Familiarity With jQuery</h1>
+    <div class="content">
+      <div class="calculator">
+        <div class="calculator__area" id="text-area">0</div>
+        <div class="calculator__buttons buttons">
+          <div class="buttons__number">
+            <div class="buttons_button">reset</div>
+            <div class="buttons_button">1</div>
+            <div class="buttons_button">2</div>
+            <div class="buttons_button">3</div>
+            <div class="buttons_button">4</div>
+            <div class="buttons_button">5</div>
+            <div class="buttons_button">6</div>
+            <div class="buttons_button">7</div>
+            <div class="buttons_button">8</div>
+            <div class="buttons_button">9</div>
+            <div class="buttons_button">0</div>
+          </div>
+          <div class="buttons__options">
+            <div class="buttons_button">.</div>
+            <div class="buttons_button">+</div>
+            <div class="buttons_button">-</div>
+            <div class="buttons_button">*</div>
+            <div class="buttons_button">/</div>
+            <div class="buttons_button">=</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+</body>
+
+</html>
