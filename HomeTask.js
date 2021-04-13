@@ -167,12 +167,11 @@ function sumFractions() {
 // 3. Создать рабочий TODO список.
 // При клике на “Add” пункт добавляется в секцию TODO, при нажатии на чекбокс, пункт перемещается в поле “Completed”.Edit / Delete редактирует и удаляет пункт.
 
-// const likes = document.getElementsByClassName(`.like`);
-// const count = document.getElementsByClassName(`.counter`);
-// likes.addEventListener(`click`, `.counter`) {
-//   count = +1;
-// }
-
+let clicks = 0;
+function onClick() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
 
 //==========================================================================================
 //==========================================================================================

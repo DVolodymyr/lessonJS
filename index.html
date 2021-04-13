@@ -8,24 +8,9 @@
   <title>Document</title>
   <link rel='stylesheet' href='style.css'>
   <link rel='stylesheet' href='styleTrafficLights.css'>
+  <link rel='stylesheet' href='toDoList.css'>
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script src='lesson1- DataTypes&Operators.js'></script>
-  <script src='lesson2-Cycles.js'></script>
-  <script src='lesson3-Function.js'></script>
-  <script src='lesson4-Objects.js'></script>
-  <script src='lesson5-Arrays.js'></script>
-  <script src='lesson6-Class.js'></script>
-  <script src='lesson7-DOM.js'></script>
-  <script src='lesson8-Events.js'></script>
-  <script src='lesson9-FamiliarityWithJQuery.js'></script>
-  <script src='lesson10-slickSlider.js'></script>
-  <script src='HomeTask.js'></script>
-  <script src='groupJob.js'></script>
 </head>
 
 <body>
@@ -202,7 +187,6 @@
         <button onclick='getModal()' class='btn'>Open</button>
         <button onclick='switchLight()' class='btn'>Switch Light</button>
         <button onclick='toggleText()' class='btn'>Show Text</button>
-
       </div>
       <div class='column02 FlexDir'>
         <h2>Continuing my thoughts</h2>
@@ -336,7 +320,7 @@
     <h1>Home Work - Events</h1>
     <div class='columns'>
       <div class='column01 FlexDir'>
-        <button class='like'>
+        <button class='like' onclick='onClick()'>
           <?xml version="1.0" encoding="utf-8"?>
           <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
@@ -347,20 +331,37 @@
               d="M27.275 15.638c0-1.288-1.020-2.282-2.374-2.282h-8.536c0.545-1.265 1.524-3.919 1.524-6.659 0-3.128-1.569-3.784-2.886-3.784-0.816 0-1.996 0.619-1.996 1.737 0 0.472-0.075 4.671-2.639 6.822-2.732 2.292-3.509 2.891-5.005 2.891-1.746 0-4.847 0.038-4.847 0.038l-0.517 0.007v12.206h5.712c0.371 0 1.483 0.496 2.466 0.932 1.622 0.722 3.459 1.541 4.696 1.541l8.25-0.003c1.343 0 2.436-1.056 2.436-2.354 0-0.529-0.189-1.012-0.494-1.405 0.984-0.282 1.711-1.18 1.711-2.254 0-0.539-0.19-1.031-0.496-1.429 0.968-0.309 1.677-1.207 1.677-2.277 0-0.538-0.184-1.031-0.485-1.431 1.031-0.258 1.801-1.185 1.801-2.295zM24.901 16.962h-1.822v1.049h0.477c0.746 0 1.353 0.607 1.353 1.353s-0.608 1.353-1.353 1.353h-1.526v1.049h0.394c0.719 0 1.304 0.585 1.304 1.305s-0.585 1.305-1.304 1.305h-1.443v1.049h0.143c0.764 0 1.387 0.586 1.387 1.305 0 0.72-0.623 1.305-1.387 1.305h-1.34v0.003h-6.91c-1.014 0-2.819-0.804-4.27-1.45-1.425-0.634-2.326-1.023-2.892-1.023h-4.663v-10.121c0.955-0.011 3.013-0.032 4.315-0.032 1.94 0 2.959-0.854 5.679-3.136 2.868-2.406 3.014-6.774 3.014-7.626 0-0.428 0.657-0.688 0.947-0.688 0.549 0 1.837 0 1.837 2.735 0 3.456-1.745 6.91-1.762 6.945l-0.39 0.763h6.426c0.018 0.013 0.030 0 0.030 0h3.757c0.767 0 1.325 0.532 1.325 1.233-0 0.73-0.594 1.324-1.325 1.324z"
               fill=" #00a2ff"></path>
           </svg>
-          <span class="counter" id="numbers "> 0 </span>
         </button>
+        <a id="clicks">0</a>
       </div>
     </div>
     <div class='column02 FlexDir'>
       <button onclick='' class='btn'></button>
+      <div class="selected" onselectstart="return false" , oncontextmenu="return false">Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Ab excepturi, facilis animi doloribus architecto,
+        ratione neque voluptates quis, delectus sapiente ipsum. Ullam dicta quis illo ut quo harum, totam soluta?
+        Nulla voluptates necessitatibus assumenda nesciunt aliquam sed adipisci quod. Nesciunt quos sunt minima
+        eligendi, labore voluptas amet cupiditate doloribus ex magni dolorem maxime ab vitae velit quas sint libero
+        iure?
+        Dicta libero repellendus iure, nulla necessitatibus corporis placeat id vel, corrupti dolore iste eum nesciunt
+        facilis, quam adipisci animi possimus mollitia asperiores alias tempore est atque repudiandae. Deserunt, omnis
+        eos.
+      </div>
       <button onclick='' class='btn'></button>
-    </div>
-    </div>
+      <input class="new-task" type="text" placeholder="Type new task...">
+      <button class="add">add</button>
+      <ul class="active-list">
+      </ul>
+      <ul class="done-list">
+      </ul>
+
+      <button onclick='' class='btn'></button>
+
   </section>
   <hr>
   <section class="lesson9">
     <h1>lesson 9 - Familiarity With jQuery</h1>
-    <div class="content">
+    <div class="contento">
       <div class="calculator">
         <div class="calculator__area" id="text-area">0</div>
         <div class="calculator__buttons buttons">
@@ -390,11 +391,10 @@
     </div>
   </section>
   <hr>
-  <section class="lesson9">
+  <section class="lesson10">
     <h1>lesson 10 - Slick Slider</h1>
     <div class="contenting">
       <div class="description">
-
         <div class="subTitleText">our featured work</div>
         <div class="titleText">We create engaging <br>experiences through<br> creativity & craft</div>
       </div>
@@ -409,6 +409,114 @@
   </section>
   <hr>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src='lesson1- DataTypes&Operators.js'></script>
+  <script src='lesson2-Cycles.js'></script>
+  <script src='lesson3-Function.js'></script>
+  <script src='lesson4-Objects.js'></script>
+  <script src='lesson5-Arrays.js'></script>
+  <script src='lesson6-Class.js'></script>
+  <script src='lesson7-DOM.js'></script>
+  <script src='lesson8-Events.js'></script>
+  <script src='lesson9-FamiliarityWithJQuery.js'></script>
+  <script src='lesson10-slickSlider.js'></script>
+  <script src='HomeTask.js'></script>
+  <script src='toDoListt.js'></script>
+  <script src='groupJob.js'></script>
 </body>
 
 </html>

@@ -19,20 +19,12 @@ document.addEventListener(`keydown`, (event) => {
 })
 //==========================================================================================
 //==========================================================================================
-// for (i = 0; i < th.length; i++)
+// for (let i = 0; i < th.length; i++) {
 //   th[i].addEventListener(`click`, (event) => {
-//     const column = event.target.cellindex;
+//     const column = event.target.cellIndex;
 //     const table = document.getElementById(`task2Table`);
-//     // for (let rowInd = 1; rowInd < th.length; rowInd++) {
+//     for (let rowInd = 1; rowInd < th.length; rowInd++) {
 
+//     }
+//   })
 // }
-// const tds = document.querySelectorAll
-//   (#task2 - table - table td: nth - child(${ target.cellIndex + 1 }))
-// })
-// let sortedRows = Array.from(task2Table.rows)
-//   .slice(1)
-//   .sort((rowA, rowB) => rowA.cells[0].innerHTML > rowB.cells[0].innerHTML ? 1 : -1);
-// table.tBodies[0].append(...sortedRows);
-
-//==========================================================================================
-//==========================================================================================
