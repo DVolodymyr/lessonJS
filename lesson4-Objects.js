@@ -101,10 +101,9 @@ function moveRectY() {
 }
 //==========================================================================================
 //==========================================================================================
-
 function isInsideRect() {
-  const poinX = +prompt(`Enter poin X coordinate :`);
-  const poinX = +prompt(`Enter poin Y coordinate :`);
+  const pointX = +prompt(`Enter poin X coordinate :`);
+  const pointY = +prompt(`Enter poin Y coordinate :`);
   if (
     (pointX >= rectangle.topLeftX)
     && (pointX <= rectangle.bottomRightX)
@@ -116,3 +115,5 @@ function isInsideRect() {
     alert(`Your point outside rectangle!`);
   };
 }
+//==========================================================================================
+//==========================================================================================

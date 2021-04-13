@@ -235,6 +235,7 @@ margin: 20px 0;
   flex-direction: column;
   text-transform:uppercase;
   margin: 0 auto;
+  padding: 25px;
 }
 .subTitleText{
   font-size: 10px;
@@ -252,6 +253,10 @@ margin: 20px 0;
 .wind{
   max-width: 350px;
   max-height: 300px;
+}
+.picture{
+  width: 350px;
+  height: 263px;
 }
 .images{
   text-align: center;

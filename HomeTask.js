@@ -151,19 +151,25 @@ const createFractions = () => {
   alert(`First fraction: ${upOne}/${downOne}\nSecond fraction: ${upTwo}/${downTwo}`);
 };
 //==========================================================================================
-function sumFractions() {
-  let newNumerator = (`${upOne}`) + (`${upTwo}`);
-  let newDenominator = (`${downOne}`) * (`${downTwo}`);
-  alert('Summa Fractions:' + ' ' + newNumerator + '/' + ' ' + newDenominator);
+function Fraction1(upOne, downOne) {
+  return { numerator1: upOne, denominator1: downOne };
 }
-
-
+function Fraction2(upTwo, downTwo) {
+  return { numerator2: upTwo, denominator2: downTwo };
+}
+let firstFraction = Fraction1(numerator1, denominator1);
+let secondFraction = Fraction2(numerator2, denominator2);
+function multiFraction(obj1, obj2) {
+  let resultNumerator = obj1.numerator1 * obj2.numerator2;
+  let resultDenominator = obj1.denominator1 * obj2.denominator2;
+  alert(`${resultNumerator}/${resultDenominator}`);
+}
+multiFraction(firstFraction, secondFraction);
 //==========================================================================================
 //==========================================================================================
-//==========================================================================================
 
-// 1. Создать HTML - страницу с кнопкой Like, при нажатии на которую увеличивается счетчик лайков.
-// 2. Создать HTML - страницу с любым содержимым и запретить пользователю выделять текст и вызывать контекстное меню кликом правой кнопки.
+// DONE 1. Создать HTML - страницу с кнопкой Like, при нажатии на которую увеличивается счетчик лайков.
+// DONE 2. Создать HTML - страницу с любым содержимым и запретить пользователю выделять текст и вызывать контекстное меню кликом правой кнопки.
 // 3. Создать рабочий TODO список.
 // При клике на “Add” пункт добавляется в секцию TODO, при нажатии на чекбокс, пункт перемещается в поле “Completed”.Edit / Delete редактирует и удаляет пункт.
 
