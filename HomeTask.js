@@ -151,20 +151,7 @@ const createFractions = () => {
   alert(`First fraction: ${upOne}/${downOne}\nSecond fraction: ${upTwo}/${downTwo}`);
 };
 //==========================================================================================
-function Fraction1(upOne, downOne) {
-  return { numerator1: upOne, denominator1: downOne };
-}
-function Fraction2(upTwo, downTwo) {
-  return { numerator2: upTwo, denominator2: downTwo };
-}
-let firstFraction = Fraction1(numerator1, denominator1);
-let secondFraction = Fraction2(numerator2, denominator2);
-function multiFraction(obj1, obj2) {
-  let resultNumerator = obj1.numerator1 * obj2.numerator2;
-  let resultDenominator = obj1.denominator1 * obj2.denominator2;
-  alert(`${resultNumerator}/${resultDenominator}`);
-}
-multiFraction(firstFraction, secondFraction);
+
 //==========================================================================================
 //==========================================================================================
 
